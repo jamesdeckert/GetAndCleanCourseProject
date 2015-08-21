@@ -1,0 +1,15 @@
+xTbl=table containing x data
+yTbl=table containing y data
+subjTbl=table containing subject data
+CombTest=table with all three test tables combined
+CombTrain=table with all three training tables combined
+CombAll=table with test and training tables combined
+ColHeaders=table containing all field names for x tables
+x=temporary variable for short term use
+xMean=dataframe containing only mean data
+xStd=dataframe containing only std data
+CombMeanStdAll=dataframe containing only the columns which I want to analyze
+StatCols=vector containing all field name which are std or mean
+ActivityLabels=vector of activity names
+meltedDF=dataframe with primary key defined as the activity name and activity id
+tidyDS=tidy formatted data frame formatted so each test has its own column
