@@ -48,5 +48,5 @@ colnames(ActivityLabels)<-c("ID","ActivityName")
 CombMeanStdAll=merge(CombMeanStdAll, ActivityLabels, by.x="ActivityID", by.y="ID" )
 
 meltedDF <- melt(CombMeanStdAll, id=c("ActivityName", "SubjectID"),  measure.vars = StatCols)  
-tidyDS <-dcast(meltedDF, ActivityName + SubjectID ~  StatCols, mean)
+tidyDS <-dcast(meltedDF, ActivityName + SubjectID ~  StatCols, mean) # average each activity by subject
 write.table(tidyDS, file="./tidyDataSet.txt",row.names=FALSE)

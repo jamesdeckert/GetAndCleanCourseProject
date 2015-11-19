@@ -1,4 +1,4 @@
-# GetAndCleanCourseProject
+# GetAndCleanCourseProject November 2015
 Course Project for Coursera Data Science #3 - Getting and Cleaning Data - Course Project
 
 I begin by opening the test files (x, y, subject) and combining the columns

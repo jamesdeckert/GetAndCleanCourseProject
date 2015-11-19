@@ -1,4 +1,4 @@
-R code variable names
+R code variable names - November 2015
 xTbl=table containing x data
 yTbl=table containing y data
 subjTbl=table containing subject data
